@@ -1,0 +1,19 @@
+{
+  "name": "hw9-readmegenerator",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sbcarls/hw9-readMeGenerator.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sbcarls/hw9-readMeGenerator/issues"
+  },
+  "homepage": "https://github.com/sbcarls/hw9-readMeGenerator#readme"
+}
