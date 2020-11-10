@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/sbcarls/hw9-readMeGenerator/issues"
   },
-  "homepage": "https://github.com/sbcarls/hw9-readMeGenerator#readme"
+  "homepage": "https://github.com/sbcarls/hw9-readMeGenerator#readme",
+  "dependencies": {
+    "inquirer": "^7.3.3"
+  }
 }
