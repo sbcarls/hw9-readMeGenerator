@@ -51,7 +51,7 @@ inquire
     {
         type: "input",
         message: "How do you use the app?",
-        name: "usage",
+        name: "usage2",
         validate: (value) =>{
             if(value){return true}
             else{return "give me a value"}
@@ -103,4 +103,6 @@ inquire
 
 
     `
+}).then(res=> {
+    fs.writeFile("./fs.generate.txt", `${res.title}, ${res.description}, ${res.contentd}, ${res.installation}, ${res.usage}, ${res.usage2}, ${res.license}, ${res.contributing}, ${res.tests}, ${res.questions}`)
 })
